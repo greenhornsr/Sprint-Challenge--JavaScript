@@ -15,17 +15,11 @@ function consume (arg1, arg2, cb){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-const add = function(num1, num2){
-  return num1+num2;
-}
+const add = (num1, num2) => num1+num2;
 
-const multiply = function(num1, num2){
-  return num1*num2;
-}
+const multiply = (num1, num2) => num1*num2;
 
-const greeting = function(fName, lName){
-  return `Hello ${fName} ${lName}, nice to meet you!`
-}
+const greeting = (fName, lName) => `Hello ${fName} ${lName}, nice to meet you!`
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
